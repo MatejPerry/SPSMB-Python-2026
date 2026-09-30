@@ -29,3 +29,9 @@ def time_format():
 if __name__ == "__main__":
     # vytvorte automat, ktery vam rozmeni castku X na:
     # 5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 1
+    value = int(input("Zadej castku"))
+
+    if value > 5000:
+        
+
+    print(f"0x5000, 1x")
