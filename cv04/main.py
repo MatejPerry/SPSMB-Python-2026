@@ -38,6 +38,3 @@ dct = {
     1       : 5
 }
 print(dct)
-
-if pokus:
-    true
