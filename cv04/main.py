@@ -38,3 +38,6 @@ dct = {
     1       : 5
 }
 print(dct)
+
+if __name__ == "__main__":
+    print("Hello world")
