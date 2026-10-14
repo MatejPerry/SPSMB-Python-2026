@@ -7,5 +7,9 @@ def NSD():
         
     print(a)
 
+def delka():
+    text = input("Zadej retezec: ")
+    print(len(text))
+
 if __name__ == "__main__":
-    NSD()
+    delka()

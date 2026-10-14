@@ -84,9 +84,8 @@ def mocniny():
     a = int(input("Zadej cislo a: "))
     n = int(input("Zadej cislo n: "))
     sum = 1
-
     for i in range(n):
-        sum *= a
+        sum = sum * a
     print(f"{sum}")
 
 if __name__ == "__main__":
