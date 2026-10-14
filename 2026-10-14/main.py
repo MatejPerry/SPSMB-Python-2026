@@ -52,7 +52,33 @@ def seznam():
     number = []
     for i in N.split():
         number.append.(int(i))
-    print(number.reverse())
+    print(number[::-1])
+
+def dupe():
+    N = input("Zadej cisla: ")
+    cislo = []
+    for i in cislo.split():
+        a = int(i)
+        # if a not in cislo:
+            # cislo.append(a)
+    st = set(cislo)
+    lst = set(st)
+    print(cislo)
+
+def maxmin():
+    N = input("Zadejte cisla: ")
+    numbers = []
+    min = float("inf")
+    max = float("-inf")
+    for i in N.split():
+        a = int(i)
+        if i > max:
+            max = a
+        elif i < min:
+            min = a
+    print(f"Max: {max}")    
+    print(f"Min: {min}")    
+        
 
 if __name__ == "__main__":
     samohlasky()
